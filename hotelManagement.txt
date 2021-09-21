@@ -1,0 +1,302 @@
+hotel management software
+     struct Guest{					
+	GuestName
+	GuestHomeAddress
+	GuestPhnNumber
+	GuestEmailAddress
+	GuestFamilySize
+	GuestVinNumber
+	GuestLengthOfStay
+	GuestDaysOfWeek
+	GuestRoomSize
+	GuestRoomNumber
+}	
+
+Guest.GuestName;
+     GuestLogin()
+	username
+	password
+	privateKey
+	publicKey
+	
+Data Types
+int
+char
+string
+functions
+loops
+struct
+classes
+arrays
+input exceptions
+ifstatements
+
+
+swtich statement for room type
+	
+Single 
+Double
+Triple 
+Quad
+Standard
+Executive
+Presedential 
+Penthouse
+Villa
+
+switch (roomType){
+	case Single:
+	   break;
+	case Double:
+	   break;
+	case Triple:
+	   break;
+	case Quad:
+           break;
+	case Standard:
+           break;
+	case Executive:
+           break;
+	case Presedential:
+           break;
+	case Penthouse:
+           break;
+	case Villa:
+           break;
+}
+
+void GuestInfo(){
+	GuestName
+	GuestHomeAddress
+	GuestPhnNumber
+	GuestEmailAddress
+	GuestFamilySize
+	GuestVinNumber
+	GuestLengthOfStay
+	GuestDaysOfWeek
+	GuestRoomSize
+	GuestRoomNumber
+}
+
+
+lengthOfStay
+
+if (lengthOfStay < 7){
+	cout << lengthOfStay << "days" << endl;
+}
+
+if (lengthOfStay >= 7){
+	cout << lengthOfStay << week << endl;
+}
+
+
+********** EXCEPTIONS ***************
+- if the user inputs the maximum exceeded characters in any of the fields, print an error
+- if the user inputs unauthorized characters, print an error message
+- if the user inputs email servers that are not recognizable, print an error
+- dedicate a certain amount of characters in an array, and after that certain amount, print an error; maximum number of characters exceeded
+- if the user inputs anything other than a number for numeric fields, print out an error
+- if the user inputs more than the required number for a numeric field, print out an error
+*********** THESE PREVENT BUFFER OVERFLOWS, PART OF SECURE CODING *********************
+
+- use the getrandom function to randomly generate an room an available room for a guest, after checking through the database
+- have the user select their own room type, according to the available room listings printed
+- print out the price for the user at the very end of the reservation
+- print out a notification to the receptionist, stating, ______ guest is arrived.......
+- use a mathematical formula to calculate the price of the hotel stay
+- print all of the reservation information at the very end of the reservation
+- have a place order button
+- have a make reservation button
+- have enter credit card information 
+
+void GuestInfo()
+	GuestFirstName
+	GuestLastName
+	GuestHomeAddress
+	GuestPhnNumber
+	GuestEmailAddress
+	NumberOfGuests
+	GuestVinNumber
+	GuestLengthOfStay
+
+void GuestLogin()
+	username
+	password
+	publicKey
+	privateKey
+void reservationInfo()
+	checkInTime
+	checkOutTime
+	RoomNumber
+	RoomType
+	FloorNumber
+	
+void availRooms()
+	binary search, I'll figure it out
+void priceOfHotelStay()
+	HotelRmRate
+	AvgDailyRate
+
+	AvgDailyRate	
+	RmRevenue
+	OccupiedRms
+
+	ex: $200 = 20,000/200
+	
+	AR
+		
+	
+voidcreditCardInfo()  
+	GuestFirstName
+	GuestLastName
+	creditCardNum
+	expirationDate
+	securityCode
+	billingAddress
+	
+void CheckOut()
+	CheckOutTime
+	LateFee
+void Time()
+	hour
+	minute
+
+Maybe populate a spreadsheet with some data to use for the program _______________ OR _______________ use the program's data to import into an input & output file and print
+all that info............. onto the screen
+
+
+void  GuestInfo(){
+	
+		string GuestFirstName;
+		string GuestLastName;
+		string GuestHomeAddress;
+		string GuestPhnNumber;
+		string GuestEmailAddress;
+		int NumberOfGuests;
+		string GuestVinNumber;
+		int GuestLengthOfStay;
+	}
+ 	void GuestLogin(){
+		string username;
+		string password;
+		string publicKey;
+		string privateKey;
+	}
+ 	void ReservInfo(){
+		string checkInTime;
+		string checkOutTime;
+		string RoomNumber;
+		string RoomType;
+		string FloorNumber;
+			
+	}
+ 	void rmSelect()
+		/// have the program scan for available rooms ////
+		string RmOfChoice;
+ 	void availRms(){
+		/// binary search or some other data structure, I'll figure it out ///
+	}
+ 	void priceOfHotelStay(){
+		//////////////////
+		
+		/////////////////
+	}
+ 	void credCardInfo(){
+		string GuestFirstName;
+		string GuestLastName;
+		string creditCardNum;
+		string expirationDate;
+		string securityCode;
+		string billingAddress;
+	
+	}
+ 	void CheckOut(){
+	cout <<	GuestInfo() << endl;
+ 	cout <<	ReservInfo() << endl;
+ 	cout <<	rmSelect() << endl;
+ 	cout <<	priceOfHotelStay() << endl;
+ 	cout <<	credCardInfo() << endl;
+	}
+	
+	void getData(){
+		// export excel spreadsheet or whatever.......... some kind of function does this. I know it...........
+		// read the data in the excel spreadsheet or something like that //////////////
+	}
+void printData(){
+	cout << getData() << endl;
+}
+
+
+
+void  GuestInfo(){
+	
+		string GuestFirstName;
+		string GuestLastName;
+		string GuestHomeAddress;
+		string GuestPhnNumber;
+		string GuestEmailAddress;
+		int NumberOfGuests;
+		string GuestVinNumber;
+		int GuestLengthOfStay;
+	}
+ 	void GuestLogin(){
+		string username;
+		string password;
+		string publicKey;
+		string privateKey;
+	}
+ 	void ReservInfo(){
+		string checkInTime;
+		string checkOutTime;
+		string RoomNumber;
+		string RoomType;
+		string FloorNumber;
+			
+	}
+ 	void rmSelect()
+		/// have the program scan for available rooms ////
+		string RmOfChoice;
+ 	void availRms(){
+		/// binary search or some other data structure, I'll figure it out ///
+	}
+ 	void priceOfHotelStay(){
+		//////////////////
+		
+		/////////////////
+	}
+ 	void credCardInfo(){
+		string GuestFirstName;
+		string GuestLastName;
+		string creditCardNum;
+		string expirationDate;
+		string securityCode;
+		string billingAddress;
+	
+	}
+ 	void CheckOut(){
+	cout <<	GuestInfo() << endl;
+ 	cout <<	ReservInfo() << endl;
+ 	cout <<	rmSelect() << endl;
+ 	cout <<	priceOfHotelStay() << endl;
+ 	cout <<	credCardInfo() << endl;
+	}
+	
+	void getData(){
+		// export excel spreadsheet or whatever.......... some kind of function does this. I know it...........
+		// read the data in the excel spreadsheet or something like that //////////////
+	}
+void printData(){
+	cout << getData() << endl;
+}
+
+int age = 19;
+double gpa = 2.7;
+string name "Victoria";
+
+cout << "Age: " << endl;
+cout << "GPA: " << endl;
+cout << "Name: " << endl;
+
+cout << &age << endl;
+cout << &GPA " << endl;
+cout << &Name << endl;

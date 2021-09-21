@@ -1,0 +1,94 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+void GuestInfo(string);
+void GuestInfo1(int);
+
+
+int main()
+{
+
+    string GuestFirstName;
+    string GuestLastName;
+    string GuestHomeAddress;
+    string GuestPhnNumber;
+    string GuestEmailAddress;
+    int NumberOfGuests;
+    string GuestVinNumber;
+    int GuestLengthOfStay;
+    string GuestRoomNumber;
+    int GuestRoomType;
+    string CheckOutTime;
+
+    GuestInfo(GuestFirstName);
+    GuestInfo(GuestLastName);
+    GuestInfo(GuestHomeAddress);
+    GuestInfo(GuestPhnNumber);
+    GuestInfo(GuestEmailAddress);
+    //GuestInfo(NumberOfGuests);
+    GuestInfo(GuestVinNumber);
+    //GuestInfo(GuestLengthOfStay);
+    GuestInfo(GuestCheckOutTime);
+
+    GuestInfo1(NumberOfGuests);
+    GuestInfo1 (GuestLengthOfStay);
+}
+
+void GuestInfo(string){
+    string GuestFirstName;
+    cout << "Enter your first name: " << endl;
+    cin >> GuestFirstName;
+
+    string GuestLastName;
+    cout << "Enter your last name: " << endl;
+    cin >> GuestLastName;
+
+    string GuestHomeAddress;
+    cout << "Enter your home address: " << endl;
+    getline(cin, GuestHomeAddress);
+    cin >> GuestHomeAddress;
+
+    string GuestPhnNumber;
+    cout << "Enter your phone number: " << endl;
+    getline(cin, GuestPhnNumber);
+    cin >> GuestPhnNumber;
+
+    string GuestEmailAddress;
+    cout << "Enter your email address: " << endl;
+    getline(cin, GuestEmailAddress);
+    cin >> GuestEmailAddress;
+
+    //int NumberOfGuests;
+    //cout << "Enter the number of guests staying at this hotel: " << endl;
+    //cin >> NumberOfGuests;
+
+    string GuestVinNumber;
+    cout << "Enter you vehicle identification number: " << endl;
+    getline(cin, GuestVinNumber);
+    cin >> GuestVinNumber;
+
+    //int GuestLengthOfStay;
+    //cout << "Enter length of stay at this hotel: " << endl;
+    //cin >> GuestLengthOfStay;
+    //cout << GuestLengthOfStay << " days " << endl;
+
+     string GuestCheckOutTime;
+     cout << "What time are you checking out? " << endl;
+     getline(cin, GuestCheckOutTime);
+     cin >> GuestCheckOutTime;
+    }
+
+GuestInfo1(int){
+    int NumberOfGuests;
+    cout << "Enter the number of guests staying at this hotel: " << endl;
+    cin >> NumberOfGuests;
+
+    int GuestLengthOfStay;
+    cout << "Enter length of stay at this hotel: " << endl;
+    cin >> GuestLengthOfStay;
+    cout << GuestLengthOfStay << " days " << endl;
+
+}

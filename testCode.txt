@@ -1,0 +1,103 @@
+#include <iostream>
+
+using namespace std;
+void GuestName(string Name);
+
+int main()
+{
+    string Name;
+	GuestName(Name);
+
+	return 0;
+}
+
+void GuestName(string Name){
+	cout << "Enter your name: " << endl;
+	cin >> Name;
+	getline(cin, Name);
+	cout << Name << endl;
+}
+
+
+_______________________________________________________________________________________________-
+
+GuestLogin(string userN, string passW, string pubK, string privK)
+GuestName(string FirstName, string LastName)
+GuestAddInfo(string livAdd, string phnNum, string vinNum)
+GuestIdentity(emailAdd, socSecNum, )
+RsrvInfo(lenOfStay, checkInTime, checkOutTime, RmNum, RmType, FloorNum)
+
+JUST AN IDEA----------------------- TO ADD TO MY CODE -----------------
+char vinNum [17];
+if (vinNum > 17) 
+	{
+   cout << "Exceeded maximum number of characters. " << endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
